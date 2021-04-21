@@ -1,0 +1,21 @@
+{
+  "name": "node-todo",
+  "version": "0.0.20",
+  "description": "Simple todo application.",
+  "main": "server.js",
+  "author": "Scotch",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.10.8",
+    "forever-monitor": "^2.0.0",
+    "method-override": "^2.3.10",
+    "mongoose": "4.10.8",
+    "morgan": "^1.9.0"
+  },
+  "scripts": {
+    "lint": "npx eslint server.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
